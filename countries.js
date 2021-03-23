@@ -19,8 +19,7 @@ data
   .then((a) => {
     //Countries with their  name, capital and flag
     // var arr = [];
-    var info = a.forEach((m) => console.log(m.name, m.capital, m.flag));
-    console.log(info);
+    a.forEach((m) => console.log(m.name, m.capital, m.flag));
     return a;
   })
   .then((a) => {
